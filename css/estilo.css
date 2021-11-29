@@ -1,0 +1,43 @@
+/*INICIO*/
+.logo {
+    margin: 10px;
+}
+.bg-nav {
+    background-color: #d0deea;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar {
+    background-color: #d0deea;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #b5a3af;
+}
+
+.card-text {
+    text-align: center;
+}
+.card-title {
+    text-align: center;
+    color: #b5a3af
+}
+.bg-dark {
+    background-color:#f0eeea!important;
+   
+}
+.miniBio {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;        
+}
+.card-footer {
+    background-color: #d0deea;
+}
+/*CONSEJOS*/
