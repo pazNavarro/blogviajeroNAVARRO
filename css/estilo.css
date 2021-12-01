@@ -63,8 +63,7 @@ a:hover {
     background-image: url(../assets/img/fondocontacto_.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    height: 20cm;
+    background-size: cover;
     display: flex;
     justify-content: center;
     padding: 5px!important;
@@ -76,9 +75,8 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 97%;
-    background-attachment: fixed;
-    height: 20cm;
-    
+    background-attachment: fixed ;
+   
   }
 .presentacion {
     background-color: #b5a3af;
@@ -87,4 +85,4 @@ a:hover {
     margin: 10%;
 
     
-  }
+}
