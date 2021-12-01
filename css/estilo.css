@@ -39,5 +39,52 @@ a:hover {
 }
 .card-footer {
     background-color: #d0deea;
+    display: flex;
+    justify-content:space-evenly;
 }
+
 /*CONSEJOS*/
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 10;
+}
+/*DESTINOS*/
+.tituloDestino {
+    background-color: #b5a3af;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+/*CONTACTO*/
+.contacto {
+    background-image: url(../assets/img/fondocontacto_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 20cm;
+    display: flex;
+    justify-content: center;
+    padding: 5px!important;
+
+}
+/*QUIENES SOMOS*/
+.mujerTurista {
+    background-image: url(../assets/img/turista.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 97%;
+    background-attachment: fixed;
+    height: 20cm;
+    
+  }
+.presentacion {
+    background-color: #b5a3af;
+    color: white;
+    padding: 5%;
+    margin: 10%;
+
+    
+  }
