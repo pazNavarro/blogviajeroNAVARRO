@@ -1,0 +1,39 @@
+//extend
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.btn--enviar{
+    @extend .btn;
+    background-color:rgb(175,162,173);
+    color:rgb(239,237,235);
+}
+
+//mixing
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quienesSomos {
+    @include flex-column-center;
+}
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+.mujerTurista {
+    @include sizes(1100px,1000px);
+}
+.mujerTurista {
+    padding: 20px;
+    margin: 5px 90px 5px 90px;
+}

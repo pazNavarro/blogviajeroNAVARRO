@@ -1,0 +1,83 @@
+@import "colores";
+@import "contenido";
+
+/*INICIO*/
+.logo {
+    margin: 10px;
+}
+.bg-nav {
+    background-color: $celeste;
+}
+.navbar-light .navbar-brand {
+    color: $blanco;
+}
+.navbar {
+    background-color: $celeste;
+}
+a {
+    text-decoration: none;
+    color: $blanco;
+}
+a:hover {
+    color: $bordo;
+}
+
+.card-text {
+    text-align: center;
+}
+.card-title {
+    text-align: center;
+    color: $bordo;
+}
+.bg-dark {
+    background-color: $beige!important;
+   
+}
+.miniBio {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;        
+}
+.card-footer {
+    background-color: $celeste;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+/*CONSEJOS*/
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 10;
+}
+/*DESTINOS*/
+.tituloDestino {
+    background-color: $bordo;
+    color: $blanco;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+/*CONTACTO*/
+.contacto {
+    background-image: url(../assets/img/fondocontacto_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 5px!important;
+
+}
+/*QUIENES SOMOS*/
+
+.presentacion {
+    background-color: $bordo;
+    color: $blanco;
+    padding: 5%;
+    margin: 5%;
+  
+}
