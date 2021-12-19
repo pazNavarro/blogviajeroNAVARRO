@@ -23,6 +23,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .quienesSomos {
     @include flex-column-center;
 }
@@ -31,9 +32,9 @@
     width: $width;
 }
 .mujerTurista {
-    @include sizes(1100px,1000px);
+    @include sizes(100%,100%);
 }
 .mujerTurista {
-    padding: 20px;
-    margin: 5px 90px 5px 90px;
+    padding: 5px;
+    margin: 10px;
 }

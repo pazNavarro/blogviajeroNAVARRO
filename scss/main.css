@@ -1,0 +1,149 @@
+.btn, .btn--enviar {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.btn--enviar {
+  background-color: #afa2ad;
+  color: #efedeb;
+}
+
+.quienesSomos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mujerTurista {
+  height: 1000px;
+  width: 1100px;
+}
+
+.mujerTurista {
+  padding: 20px;
+  margin: 5px 90px 5px 90px;
+}
+
+/*INICIO*/
+.logo {
+  margin: 10px;
+}
+
+.bg-nav {
+  background-color: #d3dde8;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar {
+  background-color: #d3dde8;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #afa2ad;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+  color: #afa2ad;
+}
+
+.bg-dark {
+  background-color: #efedeb !important;
+}
+
+.miniBio {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-footer {
+  background-color: #d3dde8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+/*CONSEJOS*/
+.card:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+/*DESTINOS*/
+.tituloDestino {
+  background-color: #afa2ad;
+  color: white;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*CONTACTO*/
+.contacto {
+  background-image: url(../assets/img/fondocontacto_.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px !important;
+}
+
+/*QUIENES SOMOS*/
+.presentacion {
+  background-color: #b5a3af;
+  color: white;
+  padding: 5%;
+  margin: 10%;
+}
+/*# sourceMappingURL=main.css.map */

@@ -49,7 +49,7 @@ a:hover {
 /*CONSEJOS*/
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 10;
 }
@@ -66,18 +66,80 @@ a:hover {
     background-image: url(../assets/img/fondocontacto_.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     justify-content: center;
-    padding: 5px!important;
+    padding: 10px!important;
+    margin: 5%;
 
 }
 /*QUIENES SOMOS*/
 
+.QuienesSomos {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70% 30%;
+    grid-template-areas: 
+    "img"
+    "texto";
+}
+
+.mujerTurista{
+   grid-area: img;
+   display: flex;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   padding: 5%;
+
+}
+
 .presentacion {
-    background-color: $bordo;
-    color: $blanco;
-    padding: 5%;
+    grid-area: texto;
+    display: flex;
+    background-color: #b5a3af;
+    color: white;
     margin: 5%;
-  
+    padding: 5%;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .gridIndex {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 70% 30%;
+      grid-template-areas:
+        "img"
+        "texto";
+    }
+    .mujerTurista{
+        grid-area: img;
+        display: flex;
+       background-position: center;
+       background-size: cover;
+       background-attachment: fixed;
+       padding: 5%;
+        
+    }
+    
+    .presentacion {
+        grid-area: texto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        font-size: x-small;
+        background-color: #b5a3af;
+        color: white;
+        padding: 5%;     
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
