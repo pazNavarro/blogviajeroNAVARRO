@@ -1,6 +1,21 @@
 @import "colores";
 @import "contenido";
 
+p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+}
+
+h5 h1 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+}
+
 /*INICIO*/
 .logo {
     margin: 10px;
@@ -17,6 +32,8 @@
 a {
     text-decoration: none;
     color: $blanco;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
 }
 a:hover {
     color: $bordo;
@@ -40,10 +57,29 @@ a:hover {
     flex-direction: column;
     justify-content: center;        
 }
+.bienvenidos {
+    background-image: url(../assets/img/mujerviajes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 75vh;
+}
+
+/*Footer*/
+
 .card-footer {
     background-color: $celeste;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
+ 
+}
+.logoFb {
+    margin-right: 5%;
+    
+}
+.logoInstagram {
+    margin-right: 5%;
 }
 
 /*CONSEJOS*/
@@ -62,20 +98,25 @@ a:hover {
     justify-content: center;
   }
 /*CONTACTO*/
+
+.contactoBody {
+    background-color: $beige;
+}
 .contacto {
     background-image: url(../assets/img/fondocontacto_.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size:90vh;
     display: flex;
     justify-content: center;
-    padding: 10px!important;
     margin: 5%;
+    }
 
-}
 /*QUIENES SOMOS*/
 
+
 .QuienesSomos {
+    background-color: $beige;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 70% 30%;
@@ -83,32 +124,26 @@ a:hover {
     "img"
     "texto";
 }
-
 .mujerTurista{
    grid-area: img;
    display: flex;
    background-position: center;
-   background-size: cover;
-   background-attachment: fixed;
-   padding: 5%;
-
+   justify-content: center;
+   background-size: 90vh;
+   padding: 0% 5% 0% 5%;
 }
-
 .presentacion {
     grid-area: texto;
     display: flex;
-    background-color: #b5a3af;
-    color: white;
+    flex-direction: column;
+    background-color: $beige;
+    color: $bordo;
     margin: 5%;
     padding: 5%;
- 
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+@media only screen and (min-width: 0px) and (max-width: 850px) {
     .gridIndex {
       display: grid;
       grid-template-columns: 100%;
@@ -118,27 +153,21 @@ a:hover {
         "texto";
     }
     .mujerTurista{
-        grid-area: img;
-        display: flex;
+       grid-area: img;
+       display: flex;
        background-position: center;
-       background-size: cover;
-       background-attachment: fixed;
-       padding: 5%;
-        
+       justify-content: center;
+       background-size: 90vh;
+       padding-bottom: 10%;
+                     
     }
     
     .presentacion {
         grid-area: texto;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        font-size: x-small;
-        background-color: #b5a3af;
-        color: white;
-        padding: 5%;     
-        display: flex;
-        flex-direction: column;
+        font-size: xx-small;
+        color: $negro;
         justify-content: center;
         align-items: center;
     }
